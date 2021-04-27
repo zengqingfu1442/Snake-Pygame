@@ -17,3 +17,9 @@ Double press makes the snake to speed up.
 Used libraries:
 - pygame
 - tkinter
+
+#
+I git clone and commit in local repo first and then forked this repo, so I need to change the remote url to my own.
+```
+git config remote.origin.url git@github.com:zengqingfu1442/Snake-Pygame.git
+```
