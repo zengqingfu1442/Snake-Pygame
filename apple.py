@@ -12,14 +12,14 @@ class Apple:
         self.y = randrange(1, ROW_COUNT-1)  # random vertical position
         self.size = size
         self.rect = pygame.Rect(self.x * CELL_SIZE, self.y * CELL_SIZE, self.size, self.size)
-        
+
     def draw(self, screen):
         pygame.draw.rect(screen, RED, self.rect)  # drawing red square apple
 
     def set_random_xy(self):                    # change apple position
         self.x = randrange(1, COL_COUNT-1)
         self.y = randrange(1, ROW_COUNT-1)
-        
+
         self.rect.x = self.x * CELL_SIZE
         self.rect.y = self.y * CELL_SIZE
 
